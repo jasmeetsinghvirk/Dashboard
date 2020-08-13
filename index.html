@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="/style.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/a7efb23b7a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+    <div class="main-header">
+
+        <img class="company-logo" src="/src/final-logo-example.png">
+
+        <input name="search" type="search" placeholder="Search...">
+        
+        <div class="dropdown">
+          <button class="dropbtn"><i style="font-size: 29px;  margin-right: 12px;" class="fas fa-user"></i>Jasmeet</button>
+          <div class="dropdown-content">
+          <a href="#">Profile</a>
+          <a href="#">Setting</a>
+          <a href="#">Logout</a>
+          </div>
+        </div>
+        
+    </div>
+        
+    </div>
+</header>
+<!-- Status bar Starts -->
+<div class="status-bar">
+    <ul>
+        <button>Register Patient  +</button>
+        <li><a class="active" href="#home"><i class="fas fa-user-injured"></i>Patients</a></li>
+        <li><a href="#news"><i class="fas fa-chart-pie"></i>Overview</a></li>
+        <li><a href="#contact"><i class="fas fa-map-marker-alt"></i> Map</a></li>
+        <li><a href="#about"><i class="fas fa-house-user"></i>Departments</a></li>
+        <li><a href="#about"><i class="fas fa-user-md"></i>Doctor</a></li>
+        <li><a href="#about"><i class="fas fa-history"></i>History</a></li>
+        <li><a href="#about"><i class="fas fa-cog"></i>Setting</a></li>
+       <div class="install-app">
+           <div class="apps">
+           <img style="width: 234px;" src="/src/free-saturn-planet-vector.webp">
+           <div class="app1">
+           <h3>Get Mobile App</h3>
+           <div class="app-image">
+               <img style="width: 30px;" src="/src/nexus2cee_ic_launcher_play_store_new_thumb-1.png">
+               <img style="width: 30px; border-radius: 15px;"  src="/src/download.png">
+           </div>
+        </div>
+        </div>
+       </div>
+      </ul>
+      
+     
+</div>
+<!-- Status Bar Ends -->
+
+<!-- section Start -->
+<div class="section-containers " style="margin-left:15%;padding-left:60px;height:100%;background-color: #f0f0f0;">
+    <div class="col1">
+        <div class="col-2" style="display: flex;">
+            <div class="bed">
+                <i class="fas fa-procedures" style="font-size:48px;color:rgba(140, 20, 252, 1);padding-top: 23px;padding-left: 27px;"></i>
+                <div class="counts">
+                    <h3>3256</h3>
+                    <h4>Total Patients</h4>
+                </div>
+            </div>
+
+            <div class="bed">
+                <i class="fas fa-users"  style="font-size:48px;color:rgb(25, 181, 254);padding-top: 23px;padding-left: 27px;"></i>
+                <div class="counts">
+                    <h3>394</h3>
+                    <h4>Available Staff</h4>
+                </div>
+            </div>
+
+            <div class="bed">
+                <i class="fas fa-donate" style="font-size:48px;color:rgba(242, 121, 53, 1);padding-top: 23px;padding-left: 27px;"></i>
+                <div class="counts">
+                    <h3>$2,536</h3>
+                    <h4>Avg. Treatment Cost</h4>
+                </div>
+            </div>
+
+            <div class="bed">
+                <i class="fas fa-ambulance" style="font-size:48px;color:rgba(219, 10, 91, 1);padding-top: 23px;padding-left: 27px;"></i>
+                <div class="counts">
+                    <h3>38</h3>
+                    <h4>Available Cars</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="charts">
+    <div id="columnchart_material" style="width: 660px;padding-left: 19px;height: 370px;margin-top: 30px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);background-color: white;"></div>
+    <div id="donutcharts" style="width: 350px; height: 370px;margin-left: 0px;margin-top: 30px;box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 7px 1px 0 rgba(0, 0, 0, 0.19); "></div>
+    <div id="donutchart" style="width: 350px; height: 370px;margin-left: 55px;margin-top: 30px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+</div>
+<div class="charts2">
+    <div id="curve_chart" style="width: 700px; height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"></div>
+    <div class="operation-data">
+        <h3>Patients By Division</h3>
+        <div class="divison1">
+            <p><i class="fas fa-home" style="color:rgba(140, 20, 252, 1)"></i> Division</p>
+            <p>24</p>
+        </div>
+        <div class="divison1">
+            <p><i class="fas fa-bed" style="color:rgb(25, 181, 254)"></i> On Rest</p>
+            <p>9</p>
+        </div>
+        <div class="divison1">
+            <p><i class="fas fa-head-side-virus" style="color:rgba(242, 121, 53, 1)"></i> Neurolo</p>
+            <p>24</p>
+        </div>
+        <div class="divison1">
+            <p><i class="fas fa-cut" style="color:rgba(219, 10, 91, 1)"></i> Surgery</p>
+            <p>24</p>
+        </div>
+        
+        <p></p>
+    </div>
+
+    <div class="graph-data">
+        <h3>3246</h3>
+        <p>Patient this month</p>
+        <div id="curve_chart1" style="width: 386px; height: 204px;"></div>
+        
+    </div>
+</div>
+</div>
+<!-- Section Ends -->
+
+<script src="/app.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+    //  Bar Graph
+    google.charts.load('current', {'packages':['bar']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Year', 'Out', 'In'],
+    ['Oct 2019', 100, 400],
+    ['Nov 2019', 170, 460],
+    ['Dec 2019', 660, 120],
+    ['Jan 2020', 130, 540]
+  ]);
+
+  var options = {
+    chart: {
+      title: 'Inpatients VS Outpaitents',
+      subtitle: 'Graph for: Oct 2019- Jan 2020',
+    }
+  };
+
+  var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+  chart.draw(data, google.charts.Bar.convertOptions(options));
+}
+//  gender Pie Chart
+google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawhart);
+      function drawhart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['male',  50],
+          ['Female',  24],
+        ]);
+
+        var options = {
+          title: 'Partition By Gender ',
+          pieHole: 0.8,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+
+
+    //   Line Graph
+    google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawCharts);
+
+      function drawCharts() {
+        var data = google.visualization.arrayToDataTable([
+          ['Time', 'Time'],
+          ['7 AM',  50],
+          ['8 AM',  100],
+          ['9 AM',  40],
+          ['10 AM',  80],
+          ['11 AM',  40],
+          ['12 PM',  70]
+        ]);
+
+        var options = {
+          title: 'Time Admiited',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+
+    //   Pie chart2
+    google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(datas);
+      function datas() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['In Patients', 554],
+          ['Out Patients',354],
+        ]);
+
+        var options = {
+          title: 'In Out History',
+          pieHole: 0.8,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutcharts'));
+        chart.draw(data, options);
+      }
+   //
+   google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(dRawCharts);
+
+      function dRawCharts() {
+        var data = google.visualization.arrayToDataTable([
+          ['Time', 'Time'],
+          ['7 AM',  50],
+          ['8 AM',  100],
+          ['9 AM',  40],
+          ['10 AM',  104],
+        ]);
+
+        var options = {
+          title: 'Time Admiited',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart1'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+</body>

@@ -1,0 +1,221 @@
+.main-header{
+    display: flex;
+}
+.company-logo {
+    width: 238px;
+    padding-right: 42px;
+}
+
+.person-logo{
+    width: 43px;
+    border-radius: 54px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+.bed{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 325px;
+    padding: 5px;
+    margin-right: 34px;
+    margin-top: 36px;
+    background-color: white;
+
+}
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    padding: 19px;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #0688fc;
+    color: white;
+  }
+
+  .status-bar a{
+    padding: 19px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .col2{
+    display: flex;
+  }
+  .counts{
+      padding-left: 27px;
+  }
+  .counts h3{
+    font-family: sans-serif;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+  .counts h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8px;
+    color: #c4c4c4;
+  }
+  .main-header input{
+   
+      width: 76%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('/src/search-icons-icons-flat-jewels-icon-11.png');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      
+    }
+    
+
+.charts{
+   display: flex;
+}
+.charts2{
+    display: flex;
+    margin-top: 31px;
+}
+.status-bar i {
+    padding-right: 25px;
+}
+.divison1{
+    display: flex;
+}
+.divison1 p {
+
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: gray;
+
+}
+.operation-data{
+    background-color: white;
+    width: 247px;
+    margin-left: 50px;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.operation-data h3{
+    font-family: sans-serif;
+}
+
+button{
+    width: 275px;
+    height: 57px;
+    font-size: 19px;
+    background-color: #e1445b;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 1px solid #e1445b;
+    cursor: pointer;
+}
+.apps{
+    width: 234px;
+    margin: 0;
+    background: #e7e3e3;
+    margin-left: 13px;
+    margin-top: 42px;
+
+}
+.app1 h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+.app-image{
+    text-align: center;
+    border-radius: 16px;
+}
+.graph-data{
+    background-color: white;
+    width: 386px;
+    margin-left: 50px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.graph-data h3{
+  margin-bottom: 0;
+  margin-left: 42px;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #e1445b;
+}
+
+.graph-data p{
+  margin-top: 5px;
+  margin-left: 42px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+
+
+
+
+
+.dropbtn {
+  background-color: #0688fc;
+  color: white;
+  width: 160px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
